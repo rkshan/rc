@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large video files (optional - uncomment if you don't want to push videos to GitHub)
+# assets/*.mp4
+# assets/*.mov
+# assets/*.avi
