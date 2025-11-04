@@ -1173,3 +1173,208 @@ body {
     }
 }
 
+/* Mobile-S (320px) - iPhone SE, Galaxy Fold */
+@media (max-width: 360px) {
+    .hero-title {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .hero-title .word {
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        padding: 0 10px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.85rem;
+    }
+
+    .detail-item {
+        padding: 0.7rem 0.8rem;
+        font-size: 0.8rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.3rem;
+    }
+
+    .detail-item i {
+        font-size: 0.95rem;
+    }
+
+    .detail-item span {
+        font-size: 0.8rem;
+    }
+
+    .image-wrapper {
+        width: 180px;
+        height: 240px;
+    }
+
+    .navbar {
+        padding: 0.8rem 3%;
+    }
+
+    .logo-image {
+        height: 30px;
+    }
+
+    .project-link {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .filter-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .project-filters {
+        gap: 0.4rem;
+    }
+
+    .project-info h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-info p {
+        font-size: 0.85rem;
+    }
+
+    .project-tags span {
+        padding: 0.25rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .about,
+    .projects,
+    .contact {
+        padding: 50px 0;
+    }
+
+    .skills h3,
+    .software-tools h3 {
+        font-size: 1.4rem;
+    }
+
+    .skill-item h4 {
+        font-size: 0.95rem;
+    }
+
+    .skill-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skill-icon i {
+        font-size: 1.2rem;
+    }
+
+    .tool-badge {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-item {
+        padding: 0.8rem;
+    }
+
+    .contact-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-icon i {
+        font-size: 1.2rem;
+    }
+
+    .contact-details h3 {
+        font-size: 1rem;
+    }
+
+    .contact-details p {
+        font-size: 0.85rem;
+    }
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .about-description {
+        font-size: 0.95rem;
+    }
+
+    .loading-message {
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+
+    .loading-spinner {
+        width: 30px;
+        height: 30px;
+        border-width: 3px;
+    }
+
+    .loading-message p {
+        font-size: 0.9rem;
+    }
+
+    .hero-content {
+        padding: 0.5rem;
+    }
+
+    .hero-buttons {
+        gap: 0.8rem;
+    }
+
+    .nav-links {
+        padding: 1.5rem;
+        top: 70px;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+        padding: 0.4rem 0;
+    }
+
+    .footer p {
+        font-size: 0.85rem;
+    }
+
+    .section-header {
+        margin-bottom: 2.5rem;
+    }
+
+    .project-thumbnail {
+        height: 200px;
+    }
+
+    .project-overlay i {
+        font-size: 3rem;
+    }
+}
